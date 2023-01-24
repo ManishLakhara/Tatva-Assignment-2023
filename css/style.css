@@ -1,0 +1,40 @@
+.mainjpg {
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
+    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
+    float: left;
+}
+
+.img {
+    position: fixed;
+    top: 72px;
+    left: 166px;
+}
+
+.logo {
+    position: fixed;
+    top: 106px;
+    left: 906px;
+}
+.span1 {
+    width: 500px;
+    top: 183px;
+    left: 905px;
+    height: 100px;
+    color: #3E3E3E;
+    font: normal normal 300 40px/47px Roboto;
+    
+}
+.logotext {
+    top: 183px;
+    left: 905px;
+    width: 500px;
+    height: 100px;
+    font: normal normal 300 40px/47px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
