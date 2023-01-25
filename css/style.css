@@ -1,15 +1,18 @@
-.main{
+*{
     margin: 0px;
     padding: 0px;
+}
+.main{
     box-sizing:border-box;
     position: fixed;
     display: flex;
-    background: #FAFAFA 0% 0% no-repeat padding-box;
+    background-color: #FAFAFA 0% 0% no-repeat padding-box;
 }
 .maina{
-    position: fixed;
+    position: relative;
     top: 72px;
     left: 166px;
+    
 }
 .mainb{
     position: inherit;
@@ -87,4 +90,34 @@
     position: fixed;
     top: 527px;
     left: 906px;
+    text-decoration: none;
+}
+.mainc {
+    position: inherit;
+    top: 527px;
+    left: 906px;
+}
+.mainc button {
+    width: 138px;
+    height: 45px;
+    background: #C8242F;
+    border-radius: 23px;
+    color: #FFFFFF;
+    font: normal normal medium 18px/24px Roboto;
+}
+.forget {
+    color: #ADADAD;
+    align-content: right;
+    margin-left: 170px;
+    text-decoration: none;
+}
+.maind{
+    position: fixed;
+    top: 595px;
+    left: 906px;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+.register{
+    color: #C8242F;
 }
